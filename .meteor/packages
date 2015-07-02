@@ -8,5 +8,4 @@ meteor-platform
 autopublish
 insecure
 iron:router
-rainhaven:foundation-apps
 rainhaven:sass
