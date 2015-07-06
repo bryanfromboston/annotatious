@@ -9,15 +9,27 @@
 <template name="ApplicationLayout">
 
   <!-- top menu -->
-  <div class="ui fixed inverted menu">
+  <div class="ui sticky menu">
     <div class="ui container">
-      <div class="item title">Annotatious</div>
-      <div class="item right">
-        <i class="setting icon"></i>
-        Settings
+	  
+      <div class="item title">
+	      <i class="icon-annotatious-logo"></i>
+      </div>
+      <div class="right menu">
+	      <div class="item active">Projects</div>
+		  <div class="item">Activity</div>
+		  <div class="item"><i class="settings icon"></i> </div>
       </div>
     </div>
   </div>
   <!-- /top menu -->
 
+  <!-- main application -->
+  <div class="ui main grid container">
+	  <div class="twelve wide column">
+		  <h1>Hello, Bryan. Here are your active projects.</h1>
+	  </div>
+	  
+  </div> 
+  <!-- /main application -->
 </template>
